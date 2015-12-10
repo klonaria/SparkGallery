@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.ms365.sparkgallery.gallery.SquareImageView
+        android:id="@+id/sivImageILG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/ivIsChoosed_ILG"
+        style="@style/CircleButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_accept_stroke"
+        android:visibility="gone" />
+
+</FrameLayout>

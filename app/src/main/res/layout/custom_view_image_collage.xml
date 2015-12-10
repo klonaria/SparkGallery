@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.ms365.sparkgallery.collage.ItemViewCollage
+            android:id="@+id/ivcLeft_CVIC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.ms365.sparkgallery.collage.ItemViewCollage
+            android:id="@+id/ivcRight_CVIC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ivCropAction_CVIC"
+        style="@style/CircleButtonStyle"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_uncrop" />
+
+</merge>

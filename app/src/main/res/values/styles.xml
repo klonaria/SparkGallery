@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen"/>
+
+    <style name="CircleButtonStyle">
+        <item name="android:layout_width">@dimen/wh_circle_button</item>
+        <item name="android:layout_height">@dimen/wh_circle_button</item>
+        <item name="android:background">@drawable/bg_circle</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>
